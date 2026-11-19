@@ -36,6 +36,7 @@ Execute `modelview.Main`, introduza o ID de um produto e carregue em **Add**. Ob
 
 ```mermaid
 classDiagram
+direction LR
     class Observer {
         <<interface>>
         +update()
@@ -86,6 +87,7 @@ O Model não deve depender de JavaFX nem conhecer `ShoppingCartUI`. Evite atuali
 
 ```mermaid
 classDiagram
+direction LR
     class Observer {
         <<interface>>
         +update()
